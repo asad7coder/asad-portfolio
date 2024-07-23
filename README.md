@@ -1,8 +1,7 @@
-# React + Vite
+# Asad Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website showcasing my work as a highly experienced Frontend Developer from Pakistan. With over a decade of professional expertise, I specialize in React, HTML, CSS, JavaScript, React and Bootstrap.
 
-Currently, two official plugins are available:
+Explore my projects and connect with me to discuss potential collaborations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Visit Asad Portfolio](https://asad7coder.github.io/asad-portfolio/)
