@@ -20,7 +20,11 @@ nav{
     cursor: pointer;
   }
   nav ul li:hover{
-    color: rebeccapurple;
+    background: white;
+    color: black;
+    padding: 4px;
+    border-radius: 10px; 
+    animation: 0.4s;
   }
   .logo{
     display: flex;
