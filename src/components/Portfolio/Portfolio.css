@@ -1,0 +1,27 @@
+.portfolio{
+  width: 100%;
+  
+}
+.portfolio ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.portfolio ul li{
+  width: 31%;
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.portfolio ul li img{
+  width: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+}

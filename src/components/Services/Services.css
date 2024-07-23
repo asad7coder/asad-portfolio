@@ -1,14 +1,16 @@
 .services{
-  width: 98%;
-  /* height: 70vh; */
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
   color:white;
 }
 
 .service{
-  width: 30%;
+  width: 250px;
+  min-width: 30%;
   /* height: 50vh; */
   border: 2px solid white;
   border-radius: 10px;

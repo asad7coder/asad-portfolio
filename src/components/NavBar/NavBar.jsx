@@ -47,7 +47,9 @@ const NavBar = () => {
         </li>
         <li>
           {" "}
-          <Link to="portfolio">Portfolio</Link>{" "}
+          <Link to="portfolio" smooth={true} offset={-200} duration={500}>
+            Portfolio
+          </Link>{" "}
         </li>
         <li>
           {" "}
