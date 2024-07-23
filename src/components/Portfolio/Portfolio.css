@@ -1,4 +1,4 @@
-.portfolio{
+/* .portfolio{
   width: 100%;
   
 }
@@ -24,4 +24,52 @@
   background-repeat: no-repeat;
 
 
+} */
+
+.portfolio{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+.box-p{
+  width: 32%;
+  min-width: 300px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 20px;
+}
+.box-p h1{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.box-p h1 a{
+  color: rgb(5, 133, 192);
+  text-decoration: none;
+}
+.box-p p{
+  color: white;
+  line-height: 25px;
+}
+.visited{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  background-color: rgb(14, 169, 230);
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+.visited img{
+  width: 20px;
+}
+.visited:hover{
+  background-color: rgb(42, 42, 43);
 }

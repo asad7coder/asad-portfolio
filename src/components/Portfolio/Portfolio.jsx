@@ -1,12 +1,10 @@
 import React from "react";
 import "./Portfolio.css";
-import green_line from "../../assets/green-line.png";
-import add_task from "../../assets/add-task.png";
-import calculator from "../../assets/calculator.png";
+import next_icon from "../../assets/next-icon.png";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <ul>
+      {/* <ul>
         <li>
           <a href="https://asad7coder.github.io/Garding/" target="_blank">
             <img src={green_line} alt="" />
@@ -22,7 +20,49 @@ const Portfolio = () => {
             <img src={calculator} alt="" />
           </a>
         </li>
-      </ul>
+      </ul> */}
+      <div className="box-p">
+        <h1>
+          <a href="">Green Line Labore</a>
+        </h1>
+        <p>This Project are Gadner services offer and showing works</p>
+        <a
+          href="https://asad7coder.github.io/Garding/"
+          target="_blank"
+          className="visited"
+        >
+          Visit Site <img src={next_icon} alt="" />
+        </a>
+      </div>
+      <div className="box-p">
+        <h1>
+          <a href="">Add Task</a>
+        </h1>
+        <p>This Project are Todo-List/Add task Daily</p>
+        <a
+          href="https://asad7coder.github.io/addTask/"
+          target="_blank"
+          className="visited"
+        >
+          Visit Site <img src={next_icon} alt="" />
+        </a>
+      </div>
+      <div className="box-p">
+        <h1>
+          <a href="">Calculator</a>
+        </h1>
+        <p>
+          It supports fundamental arithmetic operations such as addition,
+          subtraction, multiplication, and division.
+        </p>
+        <a
+          href="https://asad7coder.github.io/Calculator/"
+          target="_blank"
+          className="visited"
+        >
+          Visit Site <img src={next_icon} alt="" />
+        </a>
+      </div>
     </div>
   );
 };
