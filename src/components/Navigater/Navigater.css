@@ -1,0 +1,18 @@
+.navigater{
+  position: absolute;
+}
+.navigater-box{
+  position:fixed;
+  bottom: 0;
+  right: 5px;
+  background: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.navigater-box:hover img{
+  width: 50px;
+}
+.navigater-box img{
+  width: 30px;
+}

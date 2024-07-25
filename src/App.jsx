@@ -7,6 +7,7 @@ import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Navigater from "./components/Navigater/Navigater";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Portfolio />
         <Title title={"Get in touch"} />
         <Contact />
+        <Navigater />
         <Footer />
       </div>
     </>

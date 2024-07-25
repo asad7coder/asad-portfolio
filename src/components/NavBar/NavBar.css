@@ -11,7 +11,7 @@ nav{
   margin: 0 auto;
   /* background-color: goldenrod; */
   }
-  
+
   nav ul li{
     display: inline-block;
     list-style: none;
@@ -20,7 +20,7 @@ nav{
     cursor: pointer;
   }
   nav ul li:hover{
-   color: goldenrod;
+   color: #daa520 !important;
   }
   .logo{
     display: flex;
@@ -50,6 +50,7 @@ nav{
   .menu-icon{
     display: none;
   }
+  
 
 
   /* media query */

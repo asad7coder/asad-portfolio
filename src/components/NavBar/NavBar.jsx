@@ -59,8 +59,12 @@ const NavBar = () => {
           us
         </li>
         <li>
-          {" "}
-          <Link>Blog</Link>{" "}
+          <a
+            href="https://drive.google.com/file/d/1LJY_tHBrK7YmA1_Dd5Nl0Z88xJSVDTwN/view?usp=sharing"
+            target="_blank"
+          >
+            My Cv
+          </a>
         </li>
       </ul>
       <img src={menu_icon} alt="" className="menu-icon" onClick={toggleMenu} />

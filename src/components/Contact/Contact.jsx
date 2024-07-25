@@ -44,10 +44,11 @@ const Contact = () => {
         </p>
         <ul>
           <li>
-            <img src={mail_icon} alt="" /> GreenLineLaborer
+            <img src={mail_icon} alt="" />
+            m.asad89033@gmail.com
           </li>
           <li>
-            <img src={phone_icon} alt="" /> 03297462725
+            <img src={phone_icon} alt="" /> 0329 7462725
           </li>
           <li>
             <img src={location_icon} alt="" /> Mandian Wala Barki Road Lahore

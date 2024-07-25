@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.css";
 import my_pic from "../../assets/hero-img.jpeg";
 import next_icon from "../../assets/next-icon.png";
+import { Link } from "react-scroll";
 
 const Hero = () => {
   return (
@@ -16,9 +17,11 @@ const Hero = () => {
           and React, and have expertise in WordPress for creating and managing
           dynamic websites.
         </p>
-        <button className="hero-btn btn">
-          Connect with me <img src={next_icon} alt="" className="next-icon" />
-        </button>
+        <Link to="contact" smooth={true} duration={500} offset={-200}>
+          <button className="hero-btn btn">
+            Connect with me <img src={next_icon} alt="" className="next-icon" />
+          </button>
+        </Link>
       </div>
     </>
   );
