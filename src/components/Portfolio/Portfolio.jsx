@@ -4,23 +4,6 @@ import next_icon from "../../assets/next-icon.png";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      {/* <ul>
-        <li>
-          <a href="https://asad7coder.github.io/Garding/" target="_blank">
-            <img src={green_line} alt="" />
-          </a>
-        </li>
-        <li>
-          <a href="https://asad7coder.github.io/addTask/" target="_blank">
-            <img src={add_task} alt="" />
-          </a>
-        </li>
-        <li>
-          <a href="https://asad7coder.github.io/Calculator/" target="_blank">
-            <img src={calculator} alt="" />
-          </a>
-        </li>
-      </ul> */}
       <div className="box-p">
         <h1>
           <a href="">Green Line Labore</a>

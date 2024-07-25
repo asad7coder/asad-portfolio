@@ -48,20 +48,29 @@ const NavBar = () => {
         <li>
           {" "}
           <Link to="portfolio" smooth={true} offset={-200} duration={500}>
-            Portfolio
+            Projects
           </Link>{" "}
         </li>
         <li>
           {" "}
           <Link to="contact" smooth={true} offset={-200} duration={500}>
-            Contact
+            Contact us
           </Link>{" "}
-          us
+        </li>
+        <li>
+          <a
+            href="https://github.com/asad7coder/"
+            target="_blank"
+            className="a-tag-h"
+          >
+            Github
+          </a>
         </li>
         <li>
           <a
             href="https://drive.google.com/file/d/1LJY_tHBrK7YmA1_Dd5Nl0Z88xJSVDTwN/view?usp=sharing"
             target="_blank"
+            className="a-tag-h"
           >
             My Cv
           </a>
