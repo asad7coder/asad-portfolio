@@ -16,6 +16,18 @@
   border-radius: 10px;
   padding:  30px;
 }
+.service::before{
+  content: '';
+  position: absolute;
+  width: 350px;
+  min-width: 130%;
+  border-radius: 10px;
+  background: tomato;
+  transition: 0.3s;
+  animation: servyt 2s linear infinite;
+
+
+}
 .service h1{
   background: linear-gradient(311deg, #6198d8 10%, #73ead3 100%);
     background-clip: text;
@@ -34,12 +46,12 @@ padding: 2px;
   margin-left: 10px;
   width: 20px;
 }
-.service:hover{
+/* .service:hover{
   background: linear-gradient(311deg, #2026cb 10%, #a17c28 100%);
   border:1px solid rgb(36, 161, 155);
   border-radius: 20px;
 
-}
+} */
 
 /* media query */
 

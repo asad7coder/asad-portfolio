@@ -51,6 +51,13 @@ color: white;
   margin-top: 5px;
   resize: none;
 }
+.contact form input:focus{
+  background-color:azure;
+  color: black;
+  border: 2px solid blue;
+  border-radius: 13px;
+}
+
 .contact-col span{
   display: block;
   margin: 20px 0;

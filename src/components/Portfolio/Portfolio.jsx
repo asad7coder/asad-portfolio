@@ -4,7 +4,7 @@ import next_icon from "../../assets/next-icon.png";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <div className="box-p">
+      {/* <div className="box-p">
         <h1>
           <a href="">Green Line Labore</a>
         </h1>
@@ -16,7 +16,7 @@ const Portfolio = () => {
         >
           Visit Site <img src={next_icon} alt="" />
         </a>
-      </div>
+      </div> */}
       <div className="box-p">
         <h1>
           <a href="">Add Task</a>
