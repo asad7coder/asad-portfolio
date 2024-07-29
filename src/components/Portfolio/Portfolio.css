@@ -77,3 +77,14 @@
 .visited:hover{
   background-color: rgb(42, 42, 43);
 }
+
+/* Media Query */
+
+@media (max-width: 850px) {
+  .portfolio{
+    flex-direction: column;
+  }
+  .box-p{
+    width: 90%;
+  }
+}

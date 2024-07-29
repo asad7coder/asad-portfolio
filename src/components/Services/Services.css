@@ -60,4 +60,7 @@ padding: 2px;
     display: flex;
     flex-wrap: wrap;
   }
+  .service{
+    width: 100%;
+  }
 }

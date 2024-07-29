@@ -27,7 +27,7 @@ const Services = () => {
       <div className="service">
         <h2>03</h2>
         <h1>Graphic</h1>
-        <p>Graphic Desining is the process of building, programming...</p>
+        <p>Graphic Desining is the process of building, Desining...</p>
         <button className="btn service-btn">
           Learn More <img src={next_icon} alt="" />
         </button>
