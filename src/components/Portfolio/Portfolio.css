@@ -41,6 +41,11 @@
   border: 2px solid white;
   border-radius: 20px;
   padding: 20px;
+  transition: all 0.3s ease;
+}
+.box-p:hover{
+  transform: scale(1.1);
+  border: 2px dashed rgb(14, 169, 230);
 }
 .box-p h1{
   font-size: 20px;
@@ -64,9 +69,8 @@
   background-color: rgb(14, 169, 230);
   padding: 10px;
   border-radius: 10px;
-
-
 }
+
 .visited img{
   width: 20px;
 }

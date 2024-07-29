@@ -15,12 +15,12 @@ const App = () => {
       <NavBar />
       <div className="container">
         <Hero />
+        <Title title={"My Project"} />
+        <Portfolio />
         <Title title={"About me"} />
         <About />
         <Title title={"My Services"} />
         <Services />
-        <Title title={"My Project"} />
-        <Portfolio />
         <Title title={"Get in touch"} />
         <Contact />
         <Navigater />

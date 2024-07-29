@@ -12,7 +12,11 @@
 .my_pic{
   width: 200px;
   border-radius: 50%;
-
+  transition: all 0.3s ease-in-out;
+}
+.my_pic:hover{
+  transform: scale(1.4);
+  margin-bottom: 25px;
 }
 .hero h1{
   color: white;
