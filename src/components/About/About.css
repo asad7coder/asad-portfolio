@@ -115,5 +115,8 @@
     gap: 50px;
     
   }
+  .box-about img{
+    width: 70px;
+  }
   
 }
