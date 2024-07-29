@@ -70,7 +70,7 @@ const NavBar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1LJY_tHBrK7YmA1_Dd5Nl0Z88xJSVDTwN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1z5XIAcsbYt2VcQ1xFBb2GTpx8-Lxyumk/view?usp=sharing"
             target="_blank"
             className="a-tag-h"
           >
