@@ -6,6 +6,8 @@ import css_logo from "../../assets/css-logo.png";
 import js_logo from "../../assets/js-logo.png";
 import bt_logo from "../../assets/bt-logo.png";
 import react_logo from "../../assets/react-logo.png";
+import wp_logo from "../../assets/wp-logo.png";
+import el_logo from "../../assets/el-logo.png";
 const About = () => {
   return (
     <>
@@ -53,6 +55,8 @@ const About = () => {
             <img src={js_logo} alt="" />
             <img src={bt_logo} alt="" />
             <img src={react_logo} alt="" />
+            <img src={wp_logo} alt="" />
+            <img src={el_logo} alt="" />
           </div>
         </div>
       </div>

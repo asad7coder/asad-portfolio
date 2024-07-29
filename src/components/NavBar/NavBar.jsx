@@ -21,11 +21,13 @@ const NavBar = () => {
 
   return (
     <nav className={`navbar ${sticky ? "dark-nav" : ""}`}>
-      <div className="logo">
-        <img src={logo} alt="" className="logo_img" />
-        <span>Muhammad Asad</span>
-        <img src={verified_tick} alt="" className="verified-tick" />
-      </div>
+      <Link to="hero" smooth={true} duration={500}>
+        <div className="logo">
+          <img src={logo} alt="" className="logo_img" />
+          <span>Muhammad Asad</span>
+          <img src={verified_tick} alt="" className="verified-tick" />
+        </div>
+      </Link>
       <ul className={mobileMenu ? "" : "hide-mobile"}>
         <li>
           {" "}
