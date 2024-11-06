@@ -70,11 +70,11 @@ const NavBar = () => {
         </li>
         <li>
           <a
-            href="https://drive.google.com/file/d/1z5XIAcsbYt2VcQ1xFBb2GTpx8-Lxyumk/view?usp=sharing"
+            href="https://blog-seven-murex-83.vercel.app"
             target="_blank"
             className="a-tag-h"
           >
-            My Cv
+            Blog
           </a>
         </li>
       </ul>
